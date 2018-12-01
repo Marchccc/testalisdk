@@ -75,9 +75,6 @@
             "Ubsms\\": "aliyun-php-sdk-ubsms/Ubsms/",
             "vod\\": "aliyun-php-sdk-vod/vod/",
             "Vpc\\": "aliyun-php-sdk-vpc/Vpc/"
-        },
-        "files": [
-            "aliyun-php-sdk-core/Config.php"
-        ]
+        }
     }
 }
