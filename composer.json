@@ -1,0 +1,83 @@
+{
+  "name": "o0x00/testalisdk",
+  "type": "library",
+  "description": "test测试",
+  "keywords": ["test", "test", "test"],
+  "homepage": "https://github.com/o0x00/testalisdk",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "authors": [
+      {
+          "name": "sscs",
+          "email": "laosql@163.com"
+      }
+  ],
+  "autoload": {
+        "classmap": [
+            "aliyun-php-sdk-core"
+        ],
+        "psr-4": {
+            "aegis\\": "aliyun-php-sdk-aegis/aegis/",
+            "afs\\": "aliyun-php-sdk-afs/afs/",
+            "Alidns\\": "aliyun-php-sdk-alidns/Alidns/",
+            "ARMS\\": "aliyun-php-sdk-arms/ARMS/",
+            "ARMS4FINANCE\\": "aliyun-php-sdk-arms4finance/ARMS4FINANCE/",
+            "BatchCompute\\": "aliyun-php-sdk-batchcompute/BatchCompute/",
+            "CCC\\": "aliyun-php-sdk-ccc/CCC/",
+            "Cdn\\": "aliyun-php-sdk-cdn/Cdn/",
+            "Chatbot\\": "aliyun-php-sdk-chatbot/Chatbot/",
+            "Cloudauth\\": "aliyun-php-sdk-cloudauth/Cloudauth/",
+            "CloudPhoto\\": "aliyun-php-sdk-cloudphoto/CloudPhoto/",
+            "Cms\\": "aliyun-php-sdk-cms/Cms/",
+            "CS\\": "aliyun-php-sdk-cs/CS/",
+            "CSB\\": "aliyun-php-sdk-csb/CSB/",
+            "dcdn\\": "aliyun-php-sdk-dcdn/dcdn/",
+            "Dds\\": "aliyun-php-sdk-dds/Dds/",
+            "Dm\\": "aliyun-php-sdk-dm/Dm/",
+            "Domain_intl\\": "aliyun-php-sdk-domain-intl/Domain_intl/",
+            "Domain\\": "aliyun-php-sdk-domain/Domain/",
+            "Drds\\": "aliyun-php-sdk-drds/Drds/",
+            "Dyvmsapi\\": "aliyun-php-sdk-dyvmsapi/Dyvmsapi/",
+            "Ecs\\": "aliyun-php-sdk-ecs/Ecs/",
+            "EHPC\\": "aliyun-php-sdk-ehpc/EHPC/",
+            "Ess\\": "aliyun-php-sdk-ess/Ess/",
+            "Green\\": "aliyun-php-sdk-green/Green/",
+            "hsm\\": "aliyun-php-sdk-hsm/hsm/",
+            "ImageSearch\\": "aliyun-php-sdk-imagesearch/ImageSearch/",
+            "imm\\": "aliyun-php-sdk-imm/imm/",
+            "Iot\\": "aliyun-php-sdk-iot/Iot/",
+            "jaq\\": "aliyun-php-sdk-jaq/jaq/",
+            "jarvis\\": "aliyun-php-sdk-jarvis/jarvis/",
+            "Kms\\": "aliyun-php-sdk-kms/Kms/",
+            "live\\": "aliyun-php-sdk-live/live/",
+            "Market\\": "aliyun-php-sdk-market/Market/",
+            "MoPen\\": "aliyun-php-sdk-mopen/MoPen/",
+            "Mts\\": "aliyun-php-sdk-mts/Mts/",
+            "NAS\\": "aliyun-php-sdk-nas/NAS/",
+            "nls_cloud_meta\\": "aliyun-php-sdk-nls-cloud-meta/nls_cloud_meta/",
+            "Ons\\": "aliyun-php-sdk-ons/Ons/",
+            "Push\\": "aliyun-php-sdk-push/Push/",
+            "pvtz\\": "aliyun-php-sdk-pvtz/pvtz/",
+            "R_kvstore\\": "aliyun-php-sdk-r-kvstore/R_kvstore/",
+            "Ram\\": "aliyun-php-sdk-ram/Ram/",
+            "Rds\\": "aliyun-php-sdk-rds/Rds/",
+            "rtc\\": "aliyun-php-sdk-rtc/rtc/",
+            "saf\\": "aliyun-php-sdk-saf/saf/",
+            "Sas_api\\": "aliyun-php-sdk-sas-api/Sas_api/",
+            "scdn\\": "aliyun-php-sdk-scdn/scdn/",
+            "Slb\\": "aliyun-php-sdk-slb/Slb/",
+            "Sts\\": "aliyun-php-sdk-sts/Sts/",
+            "TeslaDam\\": "aliyun-php-sdk-tesladam/TeslaDam/",
+            "TeslaMaxCompute\\": "aliyun-php-sdk-teslamaxcompute/TeslaMaxCompute/",
+            "TeslaStream\\": "aliyun-php-sdk-teslastream/TeslaStream/",
+            "Ubsms\\": "aliyun-php-sdk-ubsms/Ubsms/",
+            "vod\\": "aliyun-php-sdk-vod/vod/",
+            "Vpc\\": "aliyun-php-sdk-vpc/Vpc/"
+        },
+        "files": [
+            "aliyun-php-sdk-core/Config.php"
+        ]
+    }
+}
