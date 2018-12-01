@@ -12,7 +12,7 @@
 
 一个查询直播服务录制域名配置列表的使用示例：
 
-
+```
 <?php
 require_once "./vendor/autoload.php";
 
@@ -90,7 +90,7 @@ stdClass Object
 )
 
  */
-
+```
 
 
 
